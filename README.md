@@ -39,32 +39,50 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Navbar Component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This component represents the navigation bar at the top of the web page.
+It includes:
+1. Logo: Typically, this is the website’s logo or branding element.
+2. Menu: A list of links or navigation options that allow users to browse different
+sections of the website.
+3. Book Now Button: A button that users can click to initiate a booking process.
 
-### Analyzing the Bundle Size
+### Search Field Component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This component appears to be a search feature that allows users to find destinations
+based on certain criteria.
+It includes:
+Input Fields: Input fields for users to search for details such as the destination,
+date, and price range.
 
-### Making a Progressive Web App
+### Destination Component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This component displays a list of destinations that users can choose from.
+It includes:
+1. List of Destinations: Displaying the available destinations, possibly populated from
+an array.
+2. Destination Details: Information about each destination, such as name,
+description, and an image.
 
-### Advanced Configuration
+### Keep in Touch Component:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This component provides a way for users to stay in touch with your website or
+business.
+It includes:
+1. Email Address Input: A field where users can enter their email addresses.
+2. Send Button: A button to confirm or submit their email address for updates or
+newsletters.
 
-### Deployment
+### Footer Component:
+This component is typically located at the bottom of the web page.
+It includes:
+Links: Links to important pages or sections of the website, such as "About Us,"
+"Contact," "Privacy Policy," etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In summary, these components work together to provide users with a seamless and
+informative browsing experience on your website, especially if they are interested in
+booking travel-related services.
